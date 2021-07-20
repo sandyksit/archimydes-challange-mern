@@ -1,0 +1,54 @@
+{
+  "name": "achimydeschallange",
+  "version": "1.0.0",
+  "description": "achimydes challange",
+  "main": "server.js",
+  "scripts": {
+    "client-install": "npm install --prefix client",
+    "start": "node src/server.js",
+    "server": "nodemon src/server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "lint": "eslint .",
+    "prettier": "prettier --write .",
+    "test": "ENV=test nyc --reporter=text --exclude \"**/*.spec.js\" mocha -p false --file src/server.js --recursive true -t 60000 --exit \"./routes/**/*.spec.js\""
+  },
+  "lint-staged": {
+    "*.js": [
+      "npm run lint . --fix",
+      "npm run prettier",
+      "git add"
+    ]
+  },
+  "author": "Sandeep Srivastava",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "bcrypt": "^5.0.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.3.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.20",
+    "mongoose": "^5.10.14",
+    "morgan": "^1.10.0",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "uuid": "^8.3.2",
+    "validator": "^13.1.17"
+  },
+  "devDependencies": {
+    "@types/mock-req-res": "^1.1.3",
+    "chai": "^4.3.0",
+    "eslint": "^7.19.0",
+    "eslint-config-prettier": "^7.2.0",
+    "lint-staged": "10.5.4",
+    "mocha": "^8.3.0",
+    "mock-req-res": "^1.2.0",
+    "nodemon": "^1.17.3",
+    "nyc": "^15.1.0",
+    "prettier": "2.2.1",
+    "sinon": "^9.2.4"
+  }
+}

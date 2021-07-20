@@ -1,0 +1,7 @@
+export const SERVER_ERROR = 'Network error!!'
+export const CREATED_SUCCESS_MESSAGE = 'User created successfully.'
+export const UPDATED_SUCCESS_MESSAGE = 'User updated successfully.'
+export const DELETED_SUCCESS_MESSAGE = 'User deleted successfully.'
+export const CREATE_USER_LABEL = 'Create user'
+export const UPDATE_USER_LABEL = 'Update user'
+export const CANCEL_LABEL = 'Cancel'

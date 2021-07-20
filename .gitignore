@@ -1,0 +1,10 @@
+#api package dependencies
+/node_modules
+package-lock.json
+.vscode
+
+/src/rest_api.log
+
+#client package dependencies
+/client/node_modules
+.nyc_output

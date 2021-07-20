@@ -1,0 +1,14 @@
+{
+  "apiPort": 5000,
+  "environment": "development",
+  "session": {
+    "secret": "76b84904014d49cca642bba4c295a099"
+  },
+  "database": {
+    "dbhost": "",
+    "dbport": "27017",
+    "dbuser": "",
+    "dbpass": "",
+    "dbname": "archimydes-challange"
+  }
+}

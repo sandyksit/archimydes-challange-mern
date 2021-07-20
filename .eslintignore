@@ -1,0 +1,8 @@
+/client
+/node_modules
+package-lock.json
+.vscode
+
+/src/rest_api.log
+
+/client/node_modules
