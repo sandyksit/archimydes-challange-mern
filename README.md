@@ -34,17 +34,6 @@ module.exports = {
 ## App Info
 Archimydes Challange using Mongo/Express/React/NodeJs
 
-![image](https://user-images.githubusercontent.com/13213679/126360911-010366bb-802a-499c-bbed-6bc913bb668e.png)
-
-![image](https://user-images.githubusercontent.com/13213679/126360956-00183c74-8a31-4668-b8e6-4b3e3efb0aaa.png)
-
-![image](https://user-images.githubusercontent.com/13213679/126361054-cf7d6de0-7ca3-4838-9a45-38ccb37a225f.png)
-
-![image](https://user-images.githubusercontent.com/13213679/126361117-d19cd7db-2317-4db7-8c1e-6e1ac5e65743.png)
-
-
-
-
 ### Author
 
 Sandeep
@@ -56,3 +45,14 @@ Sandeep
 ### License
 
 This project is licensed under the MIT License
+
+
+![image](https://user-images.githubusercontent.com/13213679/126360911-010366bb-802a-499c-bbed-6bc913bb668e.png)
+
+![image](https://user-images.githubusercontent.com/13213679/126360956-00183c74-8a31-4668-b8e6-4b3e3efb0aaa.png)
+
+![image](https://user-images.githubusercontent.com/13213679/126361054-cf7d6de0-7ca3-4838-9a45-38ccb37a225f.png)
+
+![image](https://user-images.githubusercontent.com/13213679/126361117-d19cd7db-2317-4db7-8c1e-6e1ac5e65743.png)
+
+
