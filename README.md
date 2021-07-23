@@ -46,7 +46,8 @@ Sandeep
 
 This project is licensed under the MIT License
 
-#Please add role for role table using schema or direct or postRole api
+###Role
+Please add role for role table using schema or direct or postRole api
 
 
 ![image](https://user-images.githubusercontent.com/13213679/126360911-010366bb-802a-499c-bbed-6bc913bb668e.png)
